@@ -5,6 +5,9 @@ from program.load_db import get_docs, read_pdf_file
 from program.new_preprocess import id_txt_preprocess
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from flask import Flask, request, jsonify, render_template, redirect, url_for
+
+app = Flask(__name__, template_folder='view')
 
 def main():
     start_time = time.time()
@@ -54,5 +57,10 @@ def main():
         for name, sim in ranked_results:
             print(f"{name} => Cosine Similarity: {round(sim, 4)}")
 
+@app.route('/')
+def index():
+    return render_template('index.html')
+
 if __name__ == "__main__":
+    app.run(debug=True, port=5000, host='0.0.0.0')
     main()
