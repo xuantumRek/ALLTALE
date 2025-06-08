@@ -1,0 +1,34 @@
+[
+    {
+        "rdrsrc_id": "b001",
+        "type": "book",
+        "language": "id",
+        "title": "Fear of Missing Out",
+        "alt_title" : "",
+        "subtitle": "Tepat mengambil keputusan di dunia yang menyajikan terlalu banyak pilihan",
+        "author": ["Patrick James McGinnis"],
+        "publisher": "PT Gramedia Pustaka Utama",
+        "edition": "1",
+        "year": "2019",
+        "pages": 288,
+        "isbn": "978-602-06-4407-3",
+        "digital_isbn": "978-602-06-4407-3",
+        "blurb": "FOMO, yang pertama kali muncul dalam artikel Harvard Business School, menjadi istilah global untuk kondisi tak nyaman ketika kita berpikir orang lain memiliki pengalaman yang lebih baik dan lebih kaya daripada diri kita. Diperkuat dengan maraknya media sosial, FOMO telah menjadi krisis budaya. Lalu apa obatnya? Patrick McGinnis, pencipta istilah FOMO, telah memikirkannya selama tujuh belas tahun dan menemukan solusinya: pengambilan keputusan. Belajar menimbang biaya dan manfaat dari pilihan yang kita ambil, membuat skala prioritas untuk keputusan-keputusan kita, dan mendengarkan suara hati sangatlah penting untuk meredakan FOMO dan kerabat dekatnya, FOBO—Fear of a Better Option. Buku yang dilengkapi bagian evaluasi diri ini membantu kita memastikan dan menyingkirkan bagian-bagian dalam hidup yang lebih sering menimbulkan kecemasan daripada kebahagiaan."
+    }, 
+    {
+        "rdrsrc_id": "b002",
+        "type": "book",
+        "language": "id",
+        "title": "Natural Language Processing",
+        "alt_title": "",
+        "subtitle": "Eksplorasi Sentimen Masyarakat dalam Evaluasi Produk Lokal Indonesia menggunakan Algoritma Bag of Words, TF-IDF, Word2Vec, dan Doc2Vec",
+        "author": ["Ivan Rifky Hendrawan", "Ema Utami"],
+        "publisher": "Penerbit Andi",
+        "edition": "1",
+        "year": "2023",
+        "pages": 248,
+        "isbn": "978-623-01-3668-9",
+        "digital_isbn": "978-623-01-3669-6",
+        "blurb": "Dalam buku Natural Language Processing - Eksplorasi Sentimen Masyarakat dalam Evaluasi Produk Lokal Indonesia Menggunakan Algoritma Bag of Words, TF-IDF, Word2Vec, dan Doc2Vec ini penulis membawa pembaca dalam perjalanan menarik melalui dunia analisis teks yang penuh tantangan. Buku ini mengungkapkan teknik-teknik terkini dalam mengklasifikasikan teks sentimen masyarakat dengan menggunakan empat metode yang populer, yaitu Bag of Words (BoW), Term Frequency Inverse Document Frequency (TF-IDF), Word2Vec, dan Doc2Vec. Dengan memadukan pengetahuan mendalam mengenai produk lokal di Indonesia dan kecanggihan teknologi analisis teks, penulis menawarkan pemahaman yang lebih dalam tentang pandangan dan opini masyarakat terhadap produk lokal. Pembaca akan diajak melihat bagaimana setiap metode bekerja, keunggulan dan kelemahannya, serta cara memilih metode yang paling tepat untuk mencapai hasil yang optimal. Dalam buku ini, penulis tidak hanya memaparkan konsep-konsep teoretis mengenai metode-metode tersebut, tetapi juga memberikan contoh implementasi nyata pada klasifikasi teks sentimen terhadap produk lokal di Indonesia. Pembaca akan belajar langkah-langkah praktis dalam pre-processing teks, evaluasi kinerja metode-metode tersebut, serta mendapatkan wawasan tentang keunggulan dan kelemahan masing-masing metode. Setelah membaca buku, pembaca akan dapat memanfaatkan kekuatan analisis teks untuk memperoleh wawasan berharga tentang pandangan masyarakat terhadap produk lokal di Indonesia."
+    }
+]
