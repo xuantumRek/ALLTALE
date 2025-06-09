@@ -38,7 +38,16 @@
         </h2>
         <ul class="list-disc pl-5">
           {% for judul in results %}
-          <li>{{ judul }}</li>
+          <li>
+            {{ judul }}
+            <a
+              href="{{ url_for('download_file', filename=judul) }}"
+              class="ml-2 text-sky-700 underline hover:text-sky-900"
+              download
+            >
+              Download
+            </a>
+          </li>
           {% endfor %}
         </ul>
         {% else %} Tidak ditemukan judul buku yang sesuai. {% endif %}

@@ -5,7 +5,7 @@ from program.load_db import get_docs, read_pdf_file
 from program.new_preprocess import id_txt_preprocess
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, send_from_directory
 
 app = Flask(__name__, template_folder='view')
 
@@ -50,6 +50,20 @@ def search():
         return render_template('index.html', results=[])
     results = search_documents(kata_kunci, DOC_NAMES, DOC_TEXTS)
     return render_template('index.html', results=results)
+
+@app.route('/download/<filename>')
+def download_file(filename):
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    search_dirs = [
+        os.path.join(base_dir, 'db', 'en_rdsrc'),
+        os.path.join(base_dir, 'db', 'id_rdsrc'),
+        os.path.join(base_dir, 'db', 'jp_rdsrc'),
+    ]
+    for directory in search_dirs:
+        file_path = os.path.join(directory, filename)
+        if os.path.exists(file_path):
+            return send_from_directory(directory, filename, as_attachment=True)
+    return "File tidak ditemukan", 404
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000, host='0.0.0.0')
