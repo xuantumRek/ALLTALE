@@ -1,4 +1,4 @@
-Selamat datang di repositori Book Finder, sebuah proyek akhir mata kuliah Sistem Pakar dan Bahasa Alamiah. Proyek ini dirancang untuk membantu pengguna mencari buku secara efisien melalui input kata kunci menggunakan antarmuka website
+Selamat datang di repositori AllTale, sebuah proyek akhir mata kuliah Sistem Pakar dan Bahasa Alamiah. Proyek ini dirancang untuk membantu pengguna mencari buku secara efisien melalui input kata kunci menggunakan antarmuka website
 
 # Proyek Akhir Matakuliah Sistem Pakar Dan Bahasa Alamiah (NLP)
 
